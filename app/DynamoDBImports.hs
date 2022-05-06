@@ -1,0 +1,30 @@
+module DynamoDBImports
+    ( _ResourceInUseException
+    , _ResourceNotFoundException
+    , KeyType(..)
+    , ScalarAttributeType(..)
+    , attributeDefinition
+    , attributeValue
+    , avN
+    , avS
+    , createTable
+    , ctAttributeDefinitions
+    , deleteTable
+    , describeTable
+    , dynamoDB
+    , getItem
+    , giKey
+    , girsItem
+    , keySchemaElement
+    , piItem
+    , provisionedThroughput
+    , putItem
+    , tableExists
+    , tableNotExists
+    , uiExpressionAttributeValues
+    , uiKey
+    , uiUpdateExpression
+    , updateItem
+    ) where
+
+import Network.AWS.DynamoDB
